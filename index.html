@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+    <title>Weather App</title>
+
+</head>
+<body>
+    <div id="main">
+        <div class="temp">
+            <div class="search_box">
+                 <input type="search" placeholder="Search" id="search">
+                 <button onclick="load()" id="Search_btn"><img src="https://img.icons8.com/ios-filled/20/ffffff/search--v1.png"/></button>
+            </div>
+            <div class="city">
+                <p id="city"></p>
+                <img src="https://img.icons8.com/ios/24/ffffff/marker--v1.png"/>
+            </div>  
+         
+            <h1 id="temp"></h1>
+            <div class="icon">
+                <img  alt="icon" id="icon">
+                <p id="disp"></p>
+            </div>
+            <div class="details">
+                <p id="humidity"></p>
+                <p id="min_max"></p>
+                <p id="wind"></p>
+             </div>
+             <small>Designed & developed by <strong> Afzal Ahmad</strong></small>
+        </div>
+    </div>
+
+
+    <script src="./main.js">  </script>
+</body>
+</html>
